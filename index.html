@@ -2,117 +2,148 @@
 <html>
 <head>
   <title>Sangita4 Technologies</title>
+
+  <style>
+    body {
+      margin:0;
+      font-family:Arial, sans-serif;
+    }
+
+    nav a {
+      margin:0 10px;
+      text-decoration:none;
+      color:black;
+    }
+
+    button:hover {
+      background:#1e40af;
+    }
+  </style>
+
 </head>
 
-<body style="margin:0; font-family:Arial, sans-serif;">
+<body>
 
-  <!-- HEADER -->
-  <header style="display:flex; align-items:center; justify-content:space-between; padding:15px 30px; background:white; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
-    
-    <div style="display:flex; align-items:center;">
-      <img src="logo.png" alt="Logo" style="width:50px; margin-right:10px;">
-      <h2 style="color:#1e3a8a;">Sangita4 Technologies</h2>
+<!-- HEADER -->
+<header style="display:flex; justify-content:space-between; align-items:center; padding:15px 30px; background:white; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+  
+  <div style="display:flex; align-items:center;">
+    <img src="logo.png" style="width:50px; margin-right:10px;">
+    <h2>Sangita4 Technologies</h2>
+  </div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+</header>
+
+<!-- HERO -->
+<section style="padding:60px; text-align:center; background:#f4f8ff;">
+  <h1>Empowering Digital Future</h1>
+  <p>AI | ERP | SAP | AI Agents | Data Centers</p>
+</section>
+
+<!-- SERVICES -->
+<section style="padding:50px; text-align:center;">
+  <h2>Our Services</h2>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+
+    <div style="width:250px;">
+      <h3>ERP Solutions</h3>
+      <p>Manage finance, HR, and operations efficiently.</p>
     </div>
 
-    <nav>
-      <a href="#" style="margin:0 10px; text-decoration:none;">Home</a>
-      <a href="#" style="margin:0 10px; text-decoration:none;">Services</a>
-      <a href="#" style="margin:0 10px; text-decoration:none;">Contact</a>
-    </nav>
-
-  </header>
-
-  <!-- HERO -->
-  <section style="padding:60px; text-align:center; background:#f4f8ff;">
-    <h1 style="font-size:36px; color:#1e3a8a;">
-      Empowering Digital Future
-    </h1>
-    <p style="color:#555;">
-      AI | ERP | SAP | Consulting | Data Centers
-    </p>
-  </section>
-
-  <!-- SERVICES -->
-  <section style="padding:50px; background:#f9fafc; text-align:center;">
-
-    <h1 style="font-size:32px; color:#1e3a8a;">
-      Our Services
-    </h1>
-
-    <p style="max-width:800px; margin:auto; color:#555;">
-      Sangita4 Technologies provides end-to-end IT solutions including ERP, AI, SAP, 
-      consulting, and advanced data center services.
-    </p>
-
-    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;">
-
-      <div style="background:white; padding:20px; width:260px; border-radius:10px;">
-        <h3>ERP Solutions</h3>
-        <p>Integrated systems for finance, HR, and inventory management.</p>
-      </div>
-
-      <div style="background:white; padding:20px; width:260px; border-radius:10px;">
-        <h3>AI & SAP</h3>
-        <p>Automation, analytics, and enterprise AI solutions.</p>
-      </div>
-
-      <div style="background:white; padding:20px; width:260px; border-radius:10px;">
-        <h3>Research & Development</h3>
-        <p>Innovative solutions for future-ready businesses.</p>
-      </div>
-
-      <div style="background:white; padding:20px; width:260px; border-radius:10px;">
-        <h3>Consulting</h3>
-        <p>Digital transformation and business optimization strategies.</p>
-      </div>
-
-      <div style="background:white; padding:20px; width:260px; border-radius:10px;">
-        <h3>AI Data Centers</h3>
-        <p>High-performance infrastructure for AI and cloud computing.</p>
-      </div>
-
+    <div style="width:250px;">
+      <h3>AI & SAP</h3>
+      <p>Automation and enterprise AI solutions.</p>
     </div>
 
-  </section>
-
-  <section style="padding:50px; background:#eef4ff; text-align:center;">
-
-  <h2 style="font-size:30px; color:#1e3a8a;">
-    AI Agents
-  </h2>
-
-  <p style="max-width:800px; margin:auto; color:#555;">
-    Sangita4 Technologies builds intelligent AI agents that automate business processes, 
-    enhance customer experience, and provide real-time decision support. Our AI agents 
-    can work 24/7 to improve efficiency and reduce operational costs.
-  </p>
-
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:30px;">
-
-    <div style="background:white; padding:20px; width:250px; border-radius:10px;">
-      <h3>Chatbots</h3>
-      <p>Automated customer support and engagement solutions.</p>
+    <div style="width:250px;">
+      <h3>R&D</h3>
+      <p>Innovative product development.</p>
     </div>
 
-    <div style="background:white; padding:20px; width:250px; border-radius:10px;">
-      <h3>Automation Agents</h3>
-      <p>Automate repetitive tasks and workflows efficiently.</p>
+    <div style="width:250px;">
+      <h3>Consulting</h3>
+      <p>Digital transformation and IT strategy.</p>
     </div>
 
-    <div style="background:white; padding:20px; width:250px; border-radius:10px;">
-      <h3>Data Intelligence</h3>
-      <p>AI agents for analytics, predictions, and insights.</p>
+    <div style="width:250px;">
+      <h3>AI Data Centers</h3>
+      <p>High-performance AI infrastructure.</p>
     </div>
 
   </div>
+</section>
+
+<!-- AI AGENTS -->
+<section style="padding:50px; background:#eef4ff; text-align:center;">
+  <h2>AI Agents</h2>
+  <p>Chatbots, automation, and intelligent systems.</p>
+</section>
+
+<!-- ABOUT -->
+<section style="padding:50px; text-align:center;">
+  <h2>About Us</h2>
+  <p>Sangita4 Technologies delivers modern IT solutions in AI, ERP, SAP, and cloud technologies.</p>
+</section>
+
+<!-- WHY -->
+<section style="padding:50px; background:#f4f8ff; text-align:center;">
+  <h2>Why Choose Us</h2>
+  <p>Expertise | Innovation | Reliable Support</p>
+</section>
+
+<!-- CONTACT + FORM + MAP -->
+<section style="padding:60px; background:#f4f8ff; display:flex; flex-direction:column; align-items:center;">
+
+  <div style="background:white; padding:30px; border-radius:12px; width:350px; box-shadow:0 5px 20px rgba(0,0,0,0.1);">
+
+    <h2 style="text-align:center;">Contact Us</h2>
+
+    <form action="https://formspree.io/f/abcd1234" method="POST">
+
+      <input type="text" name="name" placeholder="Your Name" required
+        style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:6px;">
+
+      <input type="email" name="email" placeholder="Your Email" required
+        style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:6px;">
+
+      <textarea name="message" placeholder="Your Message" required
+        style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:6px; height:100px;"></textarea>
+
+      <button type="submit"
+        style="width:100%; padding:12px; background:#2563eb; color:white; border:none; border-radius:6px;">
+        Send Message
+      </button>
+
+    </form>
+
+  </div>
+
+  <!-- GOOGLE MAP -->
+  <iframe 
+    src="https://www.google.com/maps?q=Pune&output=embed"
+    width="90%" height="300"
+    style="border:0; margin-top:30px;">
+  </iframe>
 
 </section>
 
-  <!-- CONTACT -->
-  <section style="padding:40px; text-align:center; background:#ffffff;">
-    <h2>Contact Us</h2>
-    <p>Email: info@sangita4.com</p>
-  </section>
+<!-- WHATSAPP -->
+<a href="https://wa.me/91XXXXXXXXXX"
+   style="position:fixed; bottom:20px; right:20px; background:#25D366; color:white; padding:15px; border-radius:50%; text-decoration:none;">
+   💬
+</a>
+
+<!-- FOOTER -->
+<footer style="background:#1e3a8a; color:white; text-align:center; padding:20px;">
+  <p>© 2026 Sangita4 Technologies</p>
+</footer>
 
 </body>
 </html>
