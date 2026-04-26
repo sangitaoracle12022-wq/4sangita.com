@@ -1,5 +1,1 @@
-console.log("JS LOADED TEST");
-
-window.onload = function () {
-    alert("JS is connected!");
-};
+document.getElementById("contactForm").addEventListener("submit", e => { e.preventDefault(); alert("Form submitted"); });
